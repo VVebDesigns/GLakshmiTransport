@@ -1,0 +1,113 @@
+
+.location-address{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-radius: 12px;
+    padding:15px;
+}
+.salem-location{
+    display:flex;
+    align-items: center;
+}
+.salem-location img{
+    max-width: 50px;
+}
+.salem-location h2{
+    font-size:20px;
+    color: #000;
+    font-weight: 700;
+    padding-left:1rem;
+
+}
+.location-address ul{
+    list-style: none;
+}
+.location-address li{
+    font-size:16px;
+    color: #000;
+    font-weight: 500;
+    padding-left:1.5rem;
+    padding-top:10px;
+
+}
+.main-contactus-section{
+    padding-top:3rem;
+    padding-bottom:2rem;
+}
+.contactus-map iframe{
+    width: 400px;
+    height: 400px;
+    border-radius:12px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    text-align: center;
+}
+.location-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top:2rem;
+}
+.salem-btn{
+    padding:10px 30px;
+    background-color:#9F2A52;
+    font-size:14px;
+    font-weight: 500;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+}
+.chennai-btn{
+    padding:10px 25px;
+    background-color:#9F2A52;
+    font-size:14px;
+    font-weight: 500;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+}
+.location-btn img{
+    max-width: 100px;
+}
+.mapping-section{
+    background: linear-gradient(to right,#e8f4ff 30%,#fff 100%);
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+@media (max-width:992px) {
+    .location-address {
+        width: 340px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .contactus-map iframe {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:768px){
+    .location-address {
+        margin-top: 1rem;
+    }
+    .contactus-content{
+        padding-top:2rem;
+    }
+}
+@media (max-width:577px){
+    .location-address {
+        width: 275px;
+    }
+    .location-address li {
+        font-size: 14px;
+    }
+    .salem-location img {
+        max-width: 35px;
+    }
+    .salem-location h2 {
+        font-size: 16px;
+        padding-left: 2rem;
+    }
+    .contactus-map iframe {
+        width: 250px;
+        height: 275px;
+    }
+}
